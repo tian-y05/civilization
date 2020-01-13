@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_340"
+    android:layout_height="@dimen/dp_472"
+    android:layout_gravity="center"
+    android:background="@mipmap/qr_code_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/dp_68"
+        android:layout_height="@dimen/dp_68"
+        android:layout_marginTop="@dimen/dp_22"
+        android:scaleType="fitXY"
+        android:src="@mipmap/zhi_default" />
+
+    <ImageView
+        android:id="@+id/iv_code"
+        android:layout_width="@dimen/dp_215"
+        android:layout_height="@dimen/dp_220"
+        android:layout_marginTop="@dimen/dp_30"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_54"
+        android:text="活动二维码"
+        android:textColor="@color/text_black_color"
+        android:textSize="@dimen/sp_15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="文明城市、卫生城市创建义务劳动"
+        android:textColor="@color/text_black_color"
+        android:textSize="@dimen/sp_15" />
+</LinearLayout>

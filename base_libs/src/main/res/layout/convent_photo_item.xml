@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dp_15"
+    android:layout_marginTop="@dimen/dp_15"
+    android:orientation="horizontal">
+
+    <com.wmsj.baselibs.view.CircleImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/author_photo"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_9"
+            android:textColor="@color/home_model"
+            android:textSize="@dimen/sp_16" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_14">
+
+            <com.wmsj.baselibs.view.MyGridView
+                android:id="@+id/gv_photos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:numColumns="3"
+                android:visibility="gone"></com.wmsj.baselibs.view.MyGridView>
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video"
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="@dimen/dp_150"
+                android:visibility="gone"></cn.jzvd.JzvdStd>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_15"
+            android:textColor="@color/author_photo"
+            android:textSize="@dimen/sp_11"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_15"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/password_forget"
+                android:textSize="@dimen/sp_11" />
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:text="@string/delete"
+                android:padding="@dimen/dp_5"
+                android:textColor="@color/author_photo"
+                android:textSize="@dimen/sp_11"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

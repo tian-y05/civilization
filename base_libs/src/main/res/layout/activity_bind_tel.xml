@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25"
+        android:layout_marginTop="@dimen/dp_39"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bind_tel"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/sp_11" />
+
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_marginTop="@dimen/dp_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/sp_34"
+            android:text="138****1234"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_22"
+            android:text="@string/bind_tel_detail"
+            android:textSize="@dimen/sp_11"
+            android:textColor="@color/password_forget"/>
+        
+        <TextView
+            android:id="@+id/tv_change"
+            android:layout_marginTop="@dimen/dp_41"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:background="@drawable/login_shape_corner"
+            android:text="@string/edit_tel"/>
+    </LinearLayout>
+</LinearLayout>

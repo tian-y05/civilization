@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar_white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_50" />
+
+        <com.flyco.tablayout.CommonTabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/layout_border"
+            app:tl_divider_color="@color/color_black"
+            app:tl_iconHeight="@dimen/dp_20"
+            app:tl_iconWidth="@dimen/dp_20"
+            app:tl_indicator_color="@color/tab_select"
+            app:tl_indicator_height="0dp"
+            app:tl_textSelectColor="@color/tab_select"
+            app:tl_textUnselectColor="@color/tab_unselect"
+            app:tl_textsize="@dimen/sp_11"
+            app:tl_underline_color="#DDDDDD"
+            app:tl_underline_height="1dp" />
+    </RelativeLayout>
+</LinearLayout>

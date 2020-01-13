@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_345"
+    android:layout_height="@dimen/dp_240"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_image_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_112"
+        android:scaleType="fitXY"
+        android:src="@mipmap/find_identity_dialog" />
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_25"
+        android:text="您的信息未在系统中找到匹配对象"
+        android:textColor="@color/text_black_color"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="请确认身份证号是否正确或者重新注册!"
+        android:textColor="@color/text_black_color"
+        android:textSize="@dimen/sp_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_25"
+        android:background="@color/under_line" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40">
+
+        <TextView
+            android:id="@+id/tv_dialog_pos"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/dialog_gray"
+            android:text="返回核对证件号"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_dialog_neg"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="去注册"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+</LinearLayout>
