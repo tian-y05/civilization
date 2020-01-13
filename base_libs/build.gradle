@@ -4,7 +4,7 @@ apply plugin: 'me.tatarka.retrolambda'  //lambda配置
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.jakewharton.butterknife'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'maven'
+//apply plugin: 'maven'
 
 android {
 
@@ -87,51 +87,51 @@ buildscript {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.60"
 
-    api "com.android.support:appcompat-v7:28.0.0"
-    api "com.android.support.constraint:constraint-layout:1.1.3"
-    api "com.android.support:cardview-v7:28.0.0"
-    api "com.android.support:recyclerview-v7:28.0.0"
-    api "com.android.support:support-v4:28.0.0"
-    api "com.android.support:design:28.0.0"
+    implementation "com.android.support:appcompat-v7:28.0.0"
+    implementation "com.android.support.constraint:constraint-layout:1.1.3"
+    implementation "com.android.support:cardview-v7:28.0.0"
+    implementation "com.android.support:recyclerview-v7:28.0.0"
+    implementation "com.android.support:support-v4:28.0.0"
+    implementation "com.android.support:design:28.0.0"
     testImplementation "junit:junit:4.12"
     androidTestImplementation "com.android.support.test:runner:1.0.2"
     androidTestImplementation "com.android.support.test.espresso:espresso-core:3.0.2"
     annotationProcessor "com.jakewharton:butterknife-compiler:8.4.0"
-    api "com.jakewharton:butterknife:8.4.0"
-    api "com.squareup.retrofit2:retrofit:2.3.0"
-    api "com.squareup.retrofit2:converter-gson:2.3.0"
-    api "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
-    api 'com.squareup.okhttp3:logging-interceptor:3.4.1'
-    api "io.reactivex.rxjava2:rxjava:2.1.5"
-    api "io.reactivex.rxjava2:rxandroid:2.0.1"
-    api "org.greenrobot:eventbus:3.0.0"
+    implementation "com.jakewharton:butterknife:8.4.0"
+    implementation "com.squareup.retrofit2:retrofit:2.3.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.3.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation "io.reactivex.rxjava2:rxjava:2.1.5"
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1"
+    implementation "org.greenrobot:eventbus:3.0.0"
 //    kapt "org.greenrobot:eventbus-annotation-processor:$rootProject.eventBus"
     //运行时权限
-    api "pub.devrel:easypermissions:1.2.0"
-    api "com.youth.banner:banner:1.4.10"
-    api "com.github.bumptech.glide:glide:4.8.0"
+    implementation "pub.devrel:easypermissions:1.2.0"
+    implementation "com.youth.banner:banner:1.4.10"
+    implementation "com.github.bumptech.glide:glide:4.8.0"
     annotationProcessor "com.github.bumptech.glide:compiler:4.8.0"
-    api 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
-    api "cn.jzvd:jiaozivideoplayer:7.0.5"
-    api "com.github.chrisbanes:PhotoView:2.0.0"
-    api 'com.mcxiaoke.viewpagerindicator:library:2.4.1'
-    api "com.lcw.library:imagepicker:2.2.2"
-    api "top.zibin:Luban:1.1.8"
-    api 'com.contrarywind:Android-PickerView:4.1.8'
-    api files('libs/AMap3DMap_6.9.2_AMapNavi_6.9.0_AMapSearch_6.9.2_AMapLocation_4.7.0_20190710.jar')
-    api "com.scwang.smartrefresh:SmartRefreshLayout:1.0.5"
-    api "com.scwang.smartrefresh:SmartRefreshHeader:1.0.5"
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation "cn.jzvd:jiaozivideoplayer:7.0.5"
+    implementation "com.github.chrisbanes:PhotoView:2.0.0"
+    implementation 'com.mcxiaoke.viewpagerindicator:library:2.4.1'
+    implementation "com.lcw.library:imagepicker:2.2.2"
+    implementation "top.zibin:Luban:1.1.8"
+    implementation 'com.contrarywind:Android-PickerView:4.1.8'
+    implementation files('libs/AMap3DMap_6.9.2_AMapNavi_6.9.0_AMapSearch_6.9.2_AMapLocation_4.7.0_20190710.jar')
+    implementation "com.scwang.smartrefresh:SmartRefreshLayout:1.0.5"
+    implementation "com.scwang.smartrefresh:SmartRefreshHeader:1.0.5"
 }
-uploadArchives {
-    repositories.mavenDeployer {
-        def mavenDirPath = file('E:\\github\\CivilizationPracticeApp\\base_libs')
-        repository(url: "file://${mavenDirPath.absolutePath}")
-        pom.project {
-            groupId "com.wmsj.baselibs"
-            artifactId "civilization"
-            version "1.0.0"
-        }
-    }
-}
+//uploadArchives {
+//    repositories.mavenDeployer {
+//        def mavenDirPath = file('E:\\github\\CivilizationPracticeApp\\base_libs')
+//        repository(url: "file://${mavenDirPath.absolutePath}")
+//        pom.project {
+//            groupId "com.wmsj.baselibs"
+//            artifactId "civilization"
+//            version "1.0.0"
+//        }
+//    }
+//}
