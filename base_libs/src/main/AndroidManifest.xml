@@ -8,291 +8,280 @@
     <application>
         <!--主页-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.MainActivity"
+            android:name=".ui.activity.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--注册-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.RegisterActivity"
+            android:name=".ui.activity.RegisterActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--忘记密码-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ForgetPasswordActivity"
+            android:name=".ui.activity.ForgetPasswordActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--找回身份-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.FindIdentityActivity"
+            android:name=".ui.activity.FindIdentityActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--活动管理-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.EventsManagementActivity"
+            android:name=".ui.activity.EventsManagementActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--文章列表-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ArticleListActivity"
+            android:name=".ui.activity.ArticleListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--平台展示-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PlatformShowActivity"
+            android:name=".ui.activity.PlatformShowActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--活动分类-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ArticleSortActivity"
+            android:name=".ui.activity.ArticleSortActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--实践基地-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PracticeListActivity"
+            android:name=".ui.activity.PracticeListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--所站风貌详情-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.StationContentDeatailActivity"
+            android:name=".ui.activity.StationContentDeatailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--文明随手拍-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ConvenientPhotoActivity"
+            android:name=".ui.activity.ConvenientPhotoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--文明随手拍查看图片-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PhotoShowActivity"
+            android:name=".ui.activity.PhotoShowActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--发布视频或图片-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.TakePhotoOrVideoActivity"
+            android:name=".ui.activity.TakePhotoOrVideoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--定位-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.LocationMapActivity"
+            android:name=".ui.activity.LocationMapActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--定位搜索-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.SearchLocationActivity"
+            android:name=".ui.activity.SearchLocationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--WebView详情页-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.WebViewDetailActivity"
+            android:name=".ui.activity.WebViewDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--所站风貌实践站查看活动详情-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.StationSpotActivity"
+            android:name=".ui.activity.StationSpotActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--活动详情-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.EventsDetailsActivity"
+            android:name=".ui.activity.EventsDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--组织详情-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ArticleSortDetailsActivity"
+            android:name=".ui.activity.ArticleSortDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--完善信息-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PerfectInformationActivity"
+            android:name=".ui.activity.PerfectInformationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--我的活动-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.MyActsActivity"
+            android:name=".ui.activity.MyActsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--我的组织-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.MyOrgActivity"
+            android:name=".ui.activity.MyOrgActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--我的随手拍-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.MyTakePhotoActivity"
+            android:name=".ui.activity.MyTakePhotoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--服务时长记录-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ServiceRecordActivity"
+            android:name=".ui.activity.ServiceRecordActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--系统消息-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.SystemMessageActivity"
+            android:name=".ui.activity.SystemMessageActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--服务详情-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.MyActsDetailsActivity"
+            android:name=".ui.activity.MyActsDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--已绑手机号-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.BindTelActivity"
+            android:name=".ui.activity.BindTelActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--账号安全-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.AccountSecurityActivity"
+            android:name=".ui.activity.AccountSecurityActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--修改号码-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.EditTelActivity"
+            android:name=".ui.activity.EditTelActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--组织完善信息-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PerfectOrgInfoActivity"
+            android:name=".ui.activity.PerfectOrgInfoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--打卡-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.CheckCardActivity"
+            android:name=".ui.activity.CheckCardActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
 
         <!--发布活动-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.PublishActsActivity"
+            android:name=".ui.activity.PublishActsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--预览活动-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ReviewActsActivity"
+            android:name=".ui.activity.ReviewActsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--组织 活动管理-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.ManageOrgActsActivity"
+            android:name=".ui.activity.ManageOrgActsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--招募人数-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.RecruitMemberActivity"
+            android:name=".ui.activity.RecruitMemberActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--录用本组成员-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.EmployMemberActivity"
+            android:name=".ui.activity.EmployMemberActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--活动图片-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgActsPicActivity"
+            android:name=".ui.activity.OrgActsPicActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--成员管理-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgMemberManageActivity"
+            android:name=".ui.activity.OrgMemberManageActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--组织活动报道-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgActsReportActivity"
+            android:name=".ui.activity.OrgActsReportActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--时长录入-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.SupplementTimeActivity"
+            android:name=".ui.activity.SupplementTimeActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--志愿者信息详情页-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgUserInfoActivity"
+            android:name=".ui.activity.OrgUserInfoActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--组织挂靠-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgManageActivity"
+            android:name=".ui.activity.OrgManageActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--上级组织-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgTopActivity"
+            android:name=".ui.activity.OrgTopActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <!--下级组织-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgDownActivity"
+            android:name=".ui.activity.OrgDownActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--下级组织-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgManageDetailsActivity"
+            android:name=".ui.activity.OrgManageDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--志愿者信息-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgMemberDeatailActivity"
+            android:name=".ui.activity.OrgMemberDeatailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
         <!--查找组织-->
         <activity
-            android:name="com.wmsj.baselibs.ui.activity.OrgSearchActivity"
+            android:name=".ui.activity.OrgSearchActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
 
         <!--更新-->
         <activity
-            android:name="com.wmsj.baselibs.update.UpdateActivity"
+            android:name=".update.UpdateActivity"
             android:screenOrientation="portrait"
             android:theme="@style/TransparentTheme"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-
-
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.wmsj.baselibs.fileProvider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths" />
-        </provider>
 
         <!--<activity-->
             <!--android:name="com.tencent.bugly.beta.ui.BetaActivity"-->

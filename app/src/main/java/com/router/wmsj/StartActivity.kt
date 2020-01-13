@@ -2,8 +2,6 @@ package com.router.wmsj
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-
-import com.wmsj.baselibs.R
 import com.wmsj.baselibs.scheduler.SchedulerUtils
 import com.wmsj.baselibs.ui.activity.MainActivity
 import com.wmsj.baselibs.utils.IntentUtils
@@ -22,7 +20,7 @@ class StartActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_start)
         initData()
     }
 
