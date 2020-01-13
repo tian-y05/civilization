@@ -45,8 +45,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import butterknife.ButterKnife;
-
 
 /**
  * Created by mardawang on 2017/7/6.
@@ -87,7 +85,7 @@ public class SignedActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signed);
-        ButterKnife.bind(this);
+//        ButterKnife.bind(this);
         mMapView = findViewById(R.id.bmapView);
         lv_view = findViewById(R.id.lv_view);
         rl_title = findViewById(R.id.rl_title);
