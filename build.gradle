@@ -4,19 +4,7 @@ buildscript {
     //使用这种统一的依赖定义,ide会主动提示版本升级,如果放在config.gradle ide就不会主动提示版本升级
     // ext.kotlin_version = '1.2.41'
     ext.kotlin_version = '1.1.51'
-    //数据库版本
-//    ext.objectboxVersion = '2.1.0'
     ext {
-        //是否单独运行
-        isRunAlone = false
-        //首页模块
-        moduleMall = false
-        //购物车模块
-        moduleCart = false
-        //订单模块
-        moduleOrder = false
-        //个人中心模块
-        moduleUserCenter = false
 
         ext.compileSdkVersion = 28
         ext.buildToolsVersion = '28.0.3'
@@ -62,8 +50,6 @@ buildscript {
         classpath 'me.tatarka:gradle-retrolambda:3.7.0' //lambda配置
         //插件
         classpath 'com.novoda:bintray-release:0.8.0'
-        //GreenDao3 add plugin
-//        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
         //kotlin
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
