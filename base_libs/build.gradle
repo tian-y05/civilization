@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 //apply plugin: 'maven'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.tian-y05'
+group = 'com.github.tian-y05'
 
 android {
 
@@ -38,7 +38,6 @@ android {
             minifyEnabled false
             debuggable true
             zipAlignEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
             buildConfigField "String", "BASE_URL", "\"http://api.jsvolunteer.org\""
             buildConfigField "String", "UPLOADURL", "\"http://api.jsvolunteer.org\""
@@ -59,7 +58,6 @@ android {
 
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             /* 是否应该生成可调试的apk */
             debuggable false
             /* 移除无用的resource文件 */
