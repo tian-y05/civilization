@@ -4,6 +4,8 @@ apply plugin: 'me.tatarka.retrolambda'  //lambda配置
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 //apply plugin: 'maven'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.tian-y05'
 
 android {
 
